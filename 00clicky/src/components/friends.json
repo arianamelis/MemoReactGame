@@ -9,7 +9,6 @@
       "id": 2,
       "name": "Kanye West",
       "image": "https://www.flickr.com/photos/171244938@N08/33838926528/in/dateposted-public/"
-     
     },
     {
       "id": 3,
@@ -17,12 +16,11 @@
       "image": "https://www.flickr.com/photos/171244938@N08/33838926358/in/dateposted-public/"
      
     },
-    {
-      "id": 4,
-      "name": "Bugs Lightyear",
-      "image": "https://www.flickr.com/photos/171244938@N08/33838926308/in/dateposted-public/"
-      
-    },
+      {
+        "id": 4,
+        "name": "Michael Rapaport",
+        "image": "https://live.staticflickr.com/65535/33848962248_456b17d1da_m.jpg"
+      },
     {
       "id": 5,
       "name": "Kylie",
@@ -45,10 +43,11 @@
       "image": "https://www.flickr.com/photos/171244938@N08/40749690883/in/dateposted-public/"
     },
     {
-      "id": 9,
-      "name": "Kevin Spacey",
-      "image": "https://www.flickr.com/photos/171244938@N08/40749690883/in/dateposted-public/"
-    },
+  
+        "id": 9,
+        "name": "Michelle Obama",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuXcUgMwfriSu91LgNGrv7X_aHuaULPpnIXOYYqJj2W0XsynZdCg"
+      },
     {
       "id": 10,
       "name": "Cardi B",
@@ -58,11 +57,9 @@
       "id": 11,
       "name": "Julian Assange",
       "image": "https://www.flickr.com/photos/171244938@N08/40749690693/in/dateposted-public/"
-    },
-    {
-      "id": 12,
-      "name": "Michelle Obama",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuXcUgMwfriSu91LgNGrv7X_aHuaULPpnIXOYYqJj2W0XsynZdCg"
     }
+  
+
+
   ]
   
