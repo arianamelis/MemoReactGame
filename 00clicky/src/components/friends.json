@@ -1,65 +1,63 @@
 [
-    {
-      "id": 1,
-      "name": "Tommy Lee",
-      "image": "https://www.flickr.com/photos/171244938@N08/33838926408/in/dateposted-public/"
-      
-    },
-    {
-      "id": 2,
-      "name": "Kanye West",
-      "image": "https://www.flickr.com/photos/171244938@N08/33838926528/in/dateposted-public/"
-    },
-    {
-      "id": 3,
-      "name": "Donald Trump",
-      "image": "https://www.flickr.com/photos/171244938@N08/33838926358/in/dateposted-public/"
-     
-    },
-      {
-        "id": 4,
-        "name": "Michael Rapaport",
-        "image": "https://live.staticflickr.com/65535/33848962248_456b17d1da_m.jpg"
-      },
-    {
-      "id": 5,
-      "name": "Kylie",
-      "image": "https://www.flickr.com/photos/171244938@N08/33838926268/in/dateposted-public/"
-     
-    },
-    {
-      "id": 6,
-      "name": "Kim Jong-un",
-      "image": "https://www.flickr.com/photos/171244938@N08/33838926488/in/dateposted-public/"
-    },
-    {
-      "id": 7,
-      "name": "Seth Rogan",
-      "image": "https://www.flickr.com/photos/171244938@N08/40749690973/in/dateposted-public/"
-    },
-    {
-      "id": 8,
-      "name": "Anderson Cooper",
-      "image": "https://www.flickr.com/photos/171244938@N08/40749690883/in/dateposted-public/"
-    },
-    {
-  
-        "id": 9,
-        "name": "Michelle Obama",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuXcUgMwfriSu91LgNGrv7X_aHuaULPpnIXOYYqJj2W0XsynZdCg"
-      },
-    {
-      "id": 10,
-      "name": "Cardi B",
-      "image": "https://www.flickr.com/photos/171244938@N08/40749690793/in/dateposted-public/"
-    },
-    {
-      "id": 11,
-      "name": "Julian Assange",
-      "image": "https://www.flickr.com/photos/171244938@N08/40749690693/in/dateposted-public/"
-    }
-  
+  {
+    "id": 1,
+    "name": "Kanye West",
+    "image": "./assets/images/images01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Donald Trump",
+    "image": "./assets/images/images02.jpg"
+  },
 
-
-  ]
-  
+  {
+    "id": 3,
+    "name": "Tommy Lee",
+    "image": "./assets/images/images03.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Michael Rapaport",
+    "image": "./assets/images/images004.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kylie",
+    "image": "./assets/images/images005.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Kim Jong-un",
+    "image": "./assets/images/images006.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Seth Rogan",
+    "image": "./assets/images/images007.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Anderson Cooper",
+    "image": "./assets/images/images008.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ja Rule",
+    "image": "./assets/images/images009.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Cardi B",
+    "image": "./assets/images/images010.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Julian Assange",
+    "image": "./assets/images/images011.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Michelle Obama",
+    "image": "./assets/images/images012.jpg"
+  }
+]

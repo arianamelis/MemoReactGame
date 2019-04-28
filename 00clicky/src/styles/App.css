@@ -13,10 +13,10 @@
   height: 60%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background: #6caddc;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 60%;
 }
 
 .card > .content {
@@ -47,10 +47,10 @@
   height: 60%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background: #6caddc;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 60%;
 }
 
 .card > .content {
@@ -67,19 +67,18 @@
   margin-top: 18px;
 }
 
-
 .title {
   width: 100%;
   text-align: center;
   font-size: 3rem;
   text-decoration: underline;
-  color: #2A77AE;
+  color: #2a77ae;
   margin-bottom: 50px;
 }
 
 .wrapper {
   padding-top: 50px;
-  background: #ECEFF1;
+  background: #eceff1;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -88,4 +87,3 @@
   align-content: flex-start;
   overflow: auto;
 }
-
