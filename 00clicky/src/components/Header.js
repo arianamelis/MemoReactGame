@@ -8,8 +8,10 @@ function Header(props) {
         return (
             <header className='header' style={{ backgroundImage: `url(${img})` }}>
                 <div className='headerContainer'>
-                    <h1>Clicky Game!</h1>
-                    <h2>Click on all images to win, but don't click the same image more than once!</h2>
+                    <h1>Daily Memory Game!</h1>
+                    <h2>Challenge yourself. </h2>
+                    <h3>Can you remember the most important people of the 21 century?</h3>
+                    <p>Work your brain out. Click once. Click the same person twice to loose</p>
                 </div>
             </header>
         );
