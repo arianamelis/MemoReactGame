@@ -15,9 +15,7 @@ function GameCard(props) {
           <li>
             <strong>ID:</strong> {props.id}
           </li>
-          <li>
-            <strong>image:</strong> {props.image}
-          </li>
+       
         </ul>
       </div>
     </div>
