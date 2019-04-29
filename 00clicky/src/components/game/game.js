@@ -3,6 +3,7 @@ import friends from "../friends.json";
 import GameCard from "../GameCard.js";
 import Wrapper from "../Wrapper.js";
 import Title from "../Title.js";
+import Header from "../Header.js";
 
 class Game extends Component {
   state = {
@@ -20,6 +21,9 @@ class Game extends Component {
     return (
       <Wrapper>
         <Title>Dont Click Twice !</Title>
+        <Header>
+          <p>start</p>
+        </Header>
         <GameCard
           name={friends[0].name}
           image={friends[0].image}
