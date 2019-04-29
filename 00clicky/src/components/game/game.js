@@ -4,7 +4,7 @@ import GameCard from "../GameCard.js";
 import Wrapper from "../Wrapper.js";
 import Title from "../Title.js";
 import Header from "../Header.js";
-
+import Navbar from "../Navbar.js";
 class Game extends Component {
   state = {
     friends: []
@@ -20,6 +20,9 @@ class Game extends Component {
   render() {
     return (
       <Wrapper>
+        <Navbar>
+
+        </Navbar>
         <Title>Dont Click Twice !</Title>
         <Header>
           <p>start</p>

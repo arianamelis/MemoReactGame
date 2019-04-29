@@ -1,22 +1,22 @@
 .card {
-  background: #fff;
-  border-radius: 2px;
+  background: #fdc4b6;
+  border-radius: 3px;
   height: 325px;
   margin: 1rem;
   position: relative;
   width: 325px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  box-shadow: 0 3px 6px #fdc4b6, 0 3px 6px #fdc4b6;
   text-align: left;
 }
 
 .card > .img-container {
-  height: 60%;
+  height: 50%;
   overflow: hidden;
   text-align: center;
-  background: #6caddc;
+  background: #9dd3a8;
 }
 .card > .img-container > img {
-  width: 60%;
+  width: 100%;
 }
 
 .card > .content {
@@ -33,24 +33,24 @@
   margin-top: 18px;
 }
 .card {
-  background: #fff;
+  background:#9dd3a8;
   border-radius: 2px;
   height: 325px;
   margin: 1rem;
   position: relative;
   width: 325px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  box-shadow: 0 3px 6px #fdc4b6, 0 3px 6px #fdc4b6;
   text-align: left;
 }
 
 .card > .img-container {
-  height: 60%;
+  height: 110000%;
   overflow: hidden;
   text-align: center;
-  background: #6caddc;
+  background: #9dd3a8;
 }
 .card > .img-container > img {
-  width: 60%;
+  width: 100%;
 }
 
 .card > .content {
@@ -72,13 +72,13 @@
   text-align: center;
   font-size: 3rem;
   text-decoration: underline;
-  color: #2a77ae;
+  color:#9dd3a8;
   margin-bottom: 50px;
 }
 
 .wrapper {
   padding-top: 50px;
-  background:red;
+  background: #ceefe4;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
