@@ -11,7 +11,8 @@ function Navbar(props) {
                         <a href='/'>Memory Game</a>
                     </li>
                     <li> hey</li>
-                    <li>Score: | Top Score: </li>
+                    <li>Score: {props.score}
+                         | Top Score: {props.topScore}</li>
                 </ul>
             </nav>
         );

@@ -2,95 +2,95 @@ import React, { Component } from "react";
 import friends from "../friends.json";
 import GameCard from "../GameCard.js";
 import Wrapper from "../Wrapper.js";
+import ClickItem from "../ClickItem";
 import Title from "../Title.js";
 import Header from "../Header.js";
 import Navbar from "../Navbar.js";
 class Game extends Component {
   state = {
-    friends: []
+    friends: friends,
+    score:0,
+    topScore:0
   };
 
-  componentDidMount = () => {
-    // get all of the items in the friends array
+  componentDidMount() {
+    this.setState({ friends: this.shuffleData(this.state.friends) });
+  }
+  shuffleData = data => {
+    let i = data.length - 1;
+    while (i > 0) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = data[i];
+      data[i] = data[j];
+      data[j] = temp;
+      i--;
+    }
+    return data;
+  };
+  resetData = data => {
+    const resetData = data.map(item => ({ ...item, clicked: false }));
+    return this.shuffleData(resetData);
+  };
+  handleCorrectGuess = newData => {
+    const { topScore, score } = this.state;
+    const newScore = score + 1;
+    const newTopScore = Math.max(newScore, topScore);
+
+    this.setState({
+      friends: this.shuffleData(newData),
+      score: newScore,
+      topScore: newTopScore
+    });
   };
 
-  handleChange = () => {};
-  // LOGIC
+  handleIncorrectGuess = data => {
+    this.setState({
+      data: this.resetData(data),
+      score: 0
+    });
+  };
+
+  handleItemClick = id => {
+    let guessedCorrectly = false;
+    console.log('hi');
+    const newData = this.state.friends.map(item => {
+      const newItem = { ...item };
+      if (newItem.id === id) {
+        if (!newItem.clicked) {
+          newItem.clicked = true;
+          guessedCorrectly = true;
+        }
+      }
+      return newItem;
+    });
+
+    guessedCorrectly
+      ? this.handleCorrectGuess(newData)
+      : this.handleIncorrectGuess(newData);
+  };
 
   render() {
     return (
-      <Wrapper>
-        <Navbar>
-
-        </Navbar>
-        <Title>Dont Click Twice !</Title>
-        <Header>
-          <p>start</p>
-        </Header>
+      <div>
+        <Navbar score={this.state.Score} topScore={this.state.topScore} />
+        <Header />
+        <Title>Click Game</Title>
+        <Wrapper>
+        {this.state.friends.map((friend,i) => (
         <GameCard
-          name={friends[0].name}
-          image={friends[0].image}
-          id={friends[0].id}
-        />
-        <GameCard
-          name={friends[1].name}
-          image={friends[1].image}
-          id={friends[1].id}
-        />
-        <GameCard
-          name={friends[2].name}
-          image={friends[2].image}
-          id={friends[2].id}
-        />
-        <GameCard
-          name={friends[3].name}
-          image={friends[3].image}
-          id={friends[3].id}
-        />
-        <GameCard
-          name={friends[4].name}
-          image={friends[4].image}
-          id={friends[4].id}
-        />
-        <GameCard
-          name={friends[5].name}
-          image={friends[5].image}
-          id={friends[5].id}
-        />
-        <GameCard
-          name={friends[6].name}
-          image={friends[6].image}
-          id={friends[6].id}
-        />
-        <GameCard
-          name={friends[7].name}
-          image={friends[7].image}
-          id={friends[7].id}
-        />
-        <GameCard
-          name={friends[8].name}
-          image={friends[8].image}
-          id={friends[8].id}
-        />
-        <GameCard
-          name={friends[9].name}
-          image={friends[9].image}
-          id={friends[9].id}
-        />
-        <GameCard
-          name={friends[10].name}
-          image={friends[10].image}
-          id={friends[10].id}
-        />
-              <GameCard
-          name={friends[11].name}
-          image={friends[11].image}
-          id={friends[11].id}
-        />
-        }
-      </Wrapper>
+          key={i}
+          id={friend.id}
+          image={friend.image}
+          handleClick={this.handleItemClick}
+          />
+          ))}
+        </Wrapper>
+       
+      </div>
     );
   }
 }
+
+
 
 export default Game;

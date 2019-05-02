@@ -1,16 +1,17 @@
 import React from "react";
 import "../styles/App.css";
+import ClickItem from "./ClickItem"
 
 function GameCard(props) {
   return (
-    <div className="card">
+    <div className="card" onClick={ () => props.handleClick(props.id)}>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={[]} src={props.image} />
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+           
           </li>
           <li>
             <strong>ID:</strong> {props.id}

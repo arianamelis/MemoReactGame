@@ -1,63 +1,63 @@
 [
   {
     "id": 1,
-    "name": "Kanye West",
+    "clicked": false,
     "image": "./assets/images/images01.jpg"
   },
   {
     "id": 2,
-    "name": "Donald Trump",
+    "clicked": false,
     "image": "./assets/images/images02.jpg"
   },
 
   {
     "id": 3,
-    "name": "Tommy Lee",
+    "clicked": false,
     "image": "./assets/images/images03.jpg"
   },
   {
     "id": 4,
-    "name": "Michael Rapaport",
+    "clicked": false,
     "image": "./assets/images/images004.jpg"
   },
   {
     "id": 5,
-    "name": "Kylie",
+    "clicked": false,
     "image": "./assets/images/images005.jpeg"
   },
   {
     "id": 6,
-    "name": "Kim Jong-un",
+    "clicked": false,
     "image": "./assets/images/images006.jpeg"
   },
   {
     "id": 7,
-    "name": "Seth Rogan",
+    "clicked": false,
     "image": "./assets/images/images007.jpeg"
   },
   {
     "id": 8,
-    "name": "Anderson Cooper",
+    "clicked": false,
     "image": "./assets/images/images008.jpg"
   },
   {
     "id": 9,
-    "name": "Ja Rule",
+    "clicked": false,
     "image": "./assets/images/images009.jpeg"
   },
   {
     "id": 10,
-    "name": "Cardi B",
+    "clicked": false,
     "image": "./assets/images/images010.jpeg"
   },
   {
     "id": 11,
-    "name": "Julian Assange",
+    "clicked": false,
     "image": "./assets/images/images011.jpeg"
   },
   {
     "id": 12,
-    "name": "Michelle Obama",
+    "clicked": false,
     "image": "./assets/images/images012.jpg"
   }
 ]
