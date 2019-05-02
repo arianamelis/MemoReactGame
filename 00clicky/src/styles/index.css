@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding-top: 100px;
+  padding-top: 0px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -35,11 +35,11 @@ body,
   }
 
   50% {
-      color: #d9d9f3;
+      color: orange;
   }
 
   to {
-      color: #fff;
+      color: purple;
   }
 }
 
@@ -49,11 +49,11 @@ body,
   }
 
   50% {
-      color: #d9d9f3;
+      color: pink;
   }
 
   to {
-      color: #fff;
+      color: yellow;
   }
 }
 
@@ -92,10 +92,10 @@ body,
   width: 100%;
   -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
   box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
-  color: #fdc4b6;
+  color: #114357;
   font-size: calc(10px + 14 * (100vw - 320px)/ 800);
   z-index: 99;
-  white-space: nowrap;
+ 
 }
 
 .navbar ul {
@@ -113,7 +113,7 @@ body,
 
 .navbar a {
   text-decoration: none;
-  color: #fdc4b6;
+  color: #114357;
   font-weight: bold;
 }
 
@@ -134,32 +134,33 @@ body,
     
     /**** Background below loaded in Header.js due to build issues ****/
     /* background-image: url(/assets/images/headerBG.jpg); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: red;
-    min-height: 400px;
-    padding: 180px 20px;
-    padding-bottom: 90px;
+    
+ 
+    color: blue;
+    min-height: 100px;
+    padding: 0px 0px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
 .headerContainer {
-    background-color:#ceefe4;
-    padding: 40px;
+    background:#114357;
+    padding: 10px;
     margin: 0 auto;
     width: fit-content;
-    display: table;
+  
 }
 
 .header h1 {
     margin: 0;
     margin-bottom: 30px;
     font-size: 2rem;
+    background-color:#ceefe4;
 }
 
 .header h2 {
     font-size: 1rem;
+    background-color:#ceefe4;
 }
 
 @media (min-width: 1100px) {
@@ -167,9 +168,10 @@ body,
         margin: 0;
         margin-bottom: 30px;
         font-size: 3rem;
+        background-color:#ceefe4;
     }
     .header h2 {
-
+      background-color:#ceefe4;
         font-size: 2rem;
     }
 }

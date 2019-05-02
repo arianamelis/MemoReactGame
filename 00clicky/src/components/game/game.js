@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import friends from "../friends.json";
 import GameCard from "../GameCard.js";
 import Wrapper from "../Wrapper.js";
-import ClickItem from "../ClickItem";
+
 import Title from "../Title.js";
 import Header from "../Header.js";
 import Navbar from "../Navbar.js";
@@ -72,7 +72,7 @@ class Game extends Component {
   render() {
     return (
       <div>
-        <Navbar score={this.state.Score} topScore={this.state.topScore} />
+        <Navbar score={this.state.score} topScore={this.state.topScore} />
         <Header />
         <Title>Click Game</Title>
         <Wrapper>

@@ -1,12 +1,12 @@
 import React from "react";
-import '../styles/App.css';
+import '../styles/index.css';
 
-const img ='./assets/images/headerBG.jpg'
+
 
 function Header(props) {
    
         return (
-            <header className='header' style={{ backgroundImage: `url(${img})` }}>
+            <header>
                 <div className='headerContainer'>
                     <h1>Daily Memory Game!</h1>
                     <h2>Challenge yourself. </h2>
