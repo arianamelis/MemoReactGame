@@ -2,7 +2,7 @@
   "name": "00clicky",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://myname.github.io/myapp",
+  "homepage": "http://myname.github.io/myapp",
   "dependencies": {
     "react": "^16.8.6",
     "react-countdown-now": "^2.1.0",

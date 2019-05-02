@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding-top: 0px;
+
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 * {
-  box-sizing: border-box;
+ 
   font-family: sans-serif;
 }
 
@@ -86,9 +86,9 @@ body,
 }
 
 .navbar {
-  background: #d9d9f3;
-  min-height: 70px;
-  position: relative;
+  background: #00796B;
+  min-height: 10px;
+  position: fixed;
   width: 100%;
   -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
   box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
@@ -106,7 +106,7 @@ body,
 
 .navbar li {
   display: inline-block;
-  padding: 26px 0;
+  padding: 0px 0;
   width: 33.3%;
   text-align: center;
 }
@@ -116,6 +116,7 @@ body,
   color: #114357;
   font-weight: bold;
 }
+
 
 @media (max-width: 420px) {
   .navbar li:first-child {
@@ -129,50 +130,86 @@ body,
   .navbar li:last-child {
       width: 40%;
   }
-
+}
   .header {
-    
+    background-color: #ceefe4;
     /**** Background below loaded in Header.js due to build issues ****/
     /* background-image: url(/assets/images/headerBG.jpg); */
-    
- 
-    color: blue;
-    min-height: 100px;
-    padding: 0px 0px;
-    padding-bottom: 0px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    color: #B2DFDB;
+    min-height: 400px;
+    padding: 100px 20px;
+
     text-align: center;
 }
 
 .headerContainer {
-    background:#114357;
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
     margin: 0 auto;
     width: fit-content;
-  
+    display: table;
 }
 
 .header h1 {
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 2rem;
-    background-color:#ceefe4;
 }
 
 .header h2 {
     font-size: 1rem;
-    background-color:#ceefe4;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 100px) {
     .header h1 {
         margin: 0;
-        margin-bottom: 30px;
+        margin-bottom: 200px;
         font-size: 3rem;
-        background-color:#ceefe4;
     }
     .header h2 {
-      background-color:#ceefe4;
+
         font-size: 2rem;
     }
 }
+
+.footer {
+  background: red;
+  height: 10px;
+  position: relative;
+  color: #114357;
+  overflow: none;
 }
+
+.footer>.bottom {
+  position: relative;
+  width: 100%;
+  background: #ceefe4;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer>.bottom>img {
+
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.footer a:link {
+  color: #114357!important;
+  text-decoration: none;
+}
+
+.footer a:visited {
+  color: #114357!important;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color:  #114357!important;
+  text-decoration: none;
+}
+

@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/App.css";
-
+import "../styles/index.css";
 function Title(props) {
-  return <h1 className="title">{props.children}</h1>;
+  return <title>Click Game</title>
 }
 
 export default Title;
