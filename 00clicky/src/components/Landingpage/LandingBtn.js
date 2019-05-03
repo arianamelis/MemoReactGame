@@ -8,7 +8,7 @@ class LandingBtn extends Component {
   render() {
       return (
           <button className='landing-btn'>
-              <div className='landing-btn'>   ><a href='/'>Click to start</a>
+              <div className='landing-btn'>   ><a href={'/game.js'}>Click to start</a>
                 </div>
               
           </button>

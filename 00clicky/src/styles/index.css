@@ -86,7 +86,7 @@ body,
 }
 
 .navbar {
-  background: #00796B;
+  background: #9dd3a8;
   min-height: 10px;
   position: fixed;
   width: 100%;
@@ -147,7 +147,7 @@ body,
 
 .headerContainer {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 40px;
+    padding: 20px;
     margin: 0 auto;
     width: fit-content;
     display: table;
