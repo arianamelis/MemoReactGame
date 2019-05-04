@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/index.css';
 
 
-const img = './assets/images/reactlogo.svg';
+// const img = './assets/images/reactlogo.svg';
 
 class Footer extends Component {
     render() {

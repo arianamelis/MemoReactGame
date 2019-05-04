@@ -5,7 +5,7 @@ import Wrapper from "../Wrapper.js";
 
 import Footer from "../Footer.js";
 import Title from "../Title.js";
-import Header from "../Header.js";
+// import Header from "../Header.js";
 import Navbar from "../Navbar.js";
 class Game extends Component {
   state = {
