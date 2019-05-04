@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49df8b3a7d6a60d1daf8eafa8f7365cb",
+    "revision": "7bd3f8fda3a5daa3caf2ad29fb1fc510",
     "url": "/MemoReactGame/index.html"
   },
   {
-    "revision": "585a0dd4801886806cc9",
+    "revision": "2fd1ff320fbd2185e15d",
     "url": "/MemoReactGame/static/css/main.53ec1332.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MemoReactGame/static/js/2.a474aea2.chunk.js"
   },
   {
-    "revision": "585a0dd4801886806cc9",
-    "url": "/MemoReactGame/static/js/main.ba2d1a3d.chunk.js"
+    "revision": "2fd1ff320fbd2185e15d",
+    "url": "/MemoReactGame/static/js/main.7429eab2.chunk.js"
   },
   {
     "revision": "a998ba369147baf89639",
