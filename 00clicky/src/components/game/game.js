@@ -74,7 +74,7 @@ class Game extends Component {
     return (
       <div>
         <Navbar score={this.state.score} topScore={this.state.topScore} />
-        <Header />
+      
         <Title>Click Game</Title>
         <Wrapper>
         {this.state.friends.map((friend,i) => (
