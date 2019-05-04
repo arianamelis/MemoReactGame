@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MemoReactGame/static/css/main.53ec1332.chunk.css",
+    "main.js": "/MemoReactGame/static/js/main.4aa35989.chunk.js",
+    "main.js.map": "/MemoReactGame/static/js/main.4aa35989.chunk.js.map",
+    "runtime~main.js": "/MemoReactGame/static/js/runtime~main.a51cba8c.js",
+    "runtime~main.js.map": "/MemoReactGame/static/js/runtime~main.a51cba8c.js.map",
+    "static/js/2.a474aea2.chunk.js": "/MemoReactGame/static/js/2.a474aea2.chunk.js",
+    "static/js/2.a474aea2.chunk.js.map": "/MemoReactGame/static/js/2.a474aea2.chunk.js.map",
+    "index.html": "/MemoReactGame/index.html",
+    "precache-manifest.8626e2a6c48a475a610e055837d0de6f.js": "/MemoReactGame/precache-manifest.8626e2a6c48a475a610e055837d0de6f.js",
+    "service-worker.js": "/MemoReactGame/service-worker.js",
+    "static/css/main.53ec1332.chunk.css.map": "/MemoReactGame/static/css/main.53ec1332.chunk.css.map"
+  }
+}
