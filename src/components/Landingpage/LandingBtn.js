@@ -5,17 +5,15 @@ import "../../components/Landingpage/LandingBtn.css";
 import { Button } from 'reactstrap';
 // The ...props means, spread all of the passed props onto this element
 // That way we don't have to define them all individually
-class LandingBtn extends Component {
-  render() {
+function LandingBtn  (props) {
       return (
           <div className='landing-btn'>
 
-              <a href="/game">
+              <a onClick={props.changeRoute}>
               <Button outline color="primary">Click Here to start</Button>
               </a>
               
           </div>
       );
-  }
 }
 export default LandingBtn;

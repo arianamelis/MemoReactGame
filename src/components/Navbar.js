@@ -8,7 +8,7 @@ function Navbar(props) {
             <nav className='navbar'>
                 <ul>
                     <li className='brand'>
-                        <a href='/'>Daily Memory Game</a>
+                        <a onClick={props.changeRoute}>Daily Memory Game</a>
                     </li>
                     <li>   | Top Score: {props.topScore}</li>
                     <li>Score: {props.score}</li>

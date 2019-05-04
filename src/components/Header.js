@@ -14,7 +14,7 @@ function Header(props) {
                        <strong>Can you remember the most influential people of the 21 century?</strong>
                     <p>Work your brain out. Click each human face once. 
                        To loose click the same face twice, the game will reset</p>
-                       <LandingBtn />
+                       <LandingBtn changeRoute={props.changeRoute}/>
                 </div>
                
                 </div>

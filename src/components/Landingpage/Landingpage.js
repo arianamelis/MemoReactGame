@@ -4,13 +4,13 @@ import Navbar from "../Navbar.js";
 import Header from "../Header.js";
 import Footer from "../Footer.js";
 
-function LandingPage() {
+function LandingPage(props) {
 
   return (
         <div>
           <Navbar />
           
-          <Header>
+          <Header changeRoute={props.changeRoute}>
             </Header>
             
             <Footer />

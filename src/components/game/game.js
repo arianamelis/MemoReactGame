@@ -73,7 +73,7 @@ class Game extends Component {
   render() {
     return (
       <div>
-        <Navbar score={this.state.score} topScore={this.state.topScore} />
+        <Navbar score={this.state.score} topScore={this.state.topScore} changeRoute={this.props.changeRoute} />
       
         <Title>Click Game</Title>
         <Wrapper>
