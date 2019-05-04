@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CLICKMEMORYREACTGAME/static/css/main.53ec1332.chunk.css",
+    "main.js": "/CLICKMEMORYREACTGAME/static/js/main.fbd7dbd4.chunk.js",
+    "main.js.map": "/CLICKMEMORYREACTGAME/static/js/main.fbd7dbd4.chunk.js.map",
+    "runtime~main.js": "/CLICKMEMORYREACTGAME/static/js/runtime~main.2dcfe83e.js",
+    "runtime~main.js.map": "/CLICKMEMORYREACTGAME/static/js/runtime~main.2dcfe83e.js.map",
+    "static/js/2.9a3beece.chunk.js": "/CLICKMEMORYREACTGAME/static/js/2.9a3beece.chunk.js",
+    "static/js/2.9a3beece.chunk.js.map": "/CLICKMEMORYREACTGAME/static/js/2.9a3beece.chunk.js.map",
+    "index.html": "/CLICKMEMORYREACTGAME/index.html",
+    "precache-manifest.efff2d4dd21e1dfc779bdc1d2ad21492.js": "/CLICKMEMORYREACTGAME/precache-manifest.efff2d4dd21e1dfc779bdc1d2ad21492.js",
+    "service-worker.js": "/CLICKMEMORYREACTGAME/service-worker.js",
+    "static/css/main.53ec1332.chunk.css.map": "/CLICKMEMORYREACTGAME/static/css/main.53ec1332.chunk.css.map"
+  }
+}
