@@ -2,7 +2,7 @@
   "name": "00clicky",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arianamelis.github.io/CLICKMEMORYREACTGAME",
+  "homepage": "https://arianamelis.github.io/CLICKMEMORYREACTGAME/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
