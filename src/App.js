@@ -9,6 +9,7 @@ class App extends Component {
     return (
       <Router>
         <div>
+          <LandingPage/>
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route exact path="/game" component={Game} />

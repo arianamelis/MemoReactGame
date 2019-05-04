@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MemoReactGame/static/css/main.53ec1332.chunk.css",
-    "main.js": "/MemoReactGame/static/js/main.a92c0598.chunk.js",
-    "main.js.map": "/MemoReactGame/static/js/main.a92c0598.chunk.js.map",
+    "main.js": "/MemoReactGame/static/js/main.ba2d1a3d.chunk.js",
+    "main.js.map": "/MemoReactGame/static/js/main.ba2d1a3d.chunk.js.map",
     "runtime~main.js": "/MemoReactGame/static/js/runtime~main.a51cba8c.js",
     "runtime~main.js.map": "/MemoReactGame/static/js/runtime~main.a51cba8c.js.map",
     "static/js/2.a474aea2.chunk.js": "/MemoReactGame/static/js/2.a474aea2.chunk.js",
     "static/js/2.a474aea2.chunk.js.map": "/MemoReactGame/static/js/2.a474aea2.chunk.js.map",
     "index.html": "/MemoReactGame/index.html",
-    "precache-manifest.4f8a9774abd4d29e1cd70cab11ae9f90.js": "/MemoReactGame/precache-manifest.4f8a9774abd4d29e1cd70cab11ae9f90.js",
+    "precache-manifest.0a06d2698ab026dd4cbb8ee3c8d9f65c.js": "/MemoReactGame/precache-manifest.0a06d2698ab026dd4cbb8ee3c8d9f65c.js",
     "service-worker.js": "/MemoReactGame/service-worker.js",
     "static/css/main.53ec1332.chunk.css.map": "/MemoReactGame/static/css/main.53ec1332.chunk.css.map"
   }
