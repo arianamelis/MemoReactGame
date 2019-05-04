@@ -5,6 +5,7 @@ import LandingPage from "./components/Landingpage/Landingpage.js";
 
 class App extends Component {
   render() {
+    console.log('app is rendering')
     return (
       <Router>
         <div>

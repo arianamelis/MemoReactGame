@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CLICKMEMORYREACTGAME/static/css/main.53ec1332.chunk.css",
-    "main.js": "/CLICKMEMORYREACTGAME/static/js/main.0385511f.chunk.js",
-    "main.js.map": "/CLICKMEMORYREACTGAME/static/js/main.0385511f.chunk.js.map",
-    "runtime~main.js": "/CLICKMEMORYREACTGAME/static/js/runtime~main.2dcfe83e.js",
-    "runtime~main.js.map": "/CLICKMEMORYREACTGAME/static/js/runtime~main.2dcfe83e.js.map",
-    "static/js/2.a474aea2.chunk.js": "/CLICKMEMORYREACTGAME/static/js/2.a474aea2.chunk.js",
-    "static/js/2.a474aea2.chunk.js.map": "/CLICKMEMORYREACTGAME/static/js/2.a474aea2.chunk.js.map",
-    "index.html": "/CLICKMEMORYREACTGAME/index.html",
-    "precache-manifest.9312f829607b0a2f249dc1c379305adf.js": "/CLICKMEMORYREACTGAME/precache-manifest.9312f829607b0a2f249dc1c379305adf.js",
-    "service-worker.js": "/CLICKMEMORYREACTGAME/service-worker.js",
-    "static/css/main.53ec1332.chunk.css.map": "/CLICKMEMORYREACTGAME/static/css/main.53ec1332.chunk.css.map"
+    "main.css": "/MemoReactGame/static/css/main.53ec1332.chunk.css",
+    "main.js": "/MemoReactGame/static/js/main.a92c0598.chunk.js",
+    "main.js.map": "/MemoReactGame/static/js/main.a92c0598.chunk.js.map",
+    "runtime~main.js": "/MemoReactGame/static/js/runtime~main.a51cba8c.js",
+    "runtime~main.js.map": "/MemoReactGame/static/js/runtime~main.a51cba8c.js.map",
+    "static/js/2.a474aea2.chunk.js": "/MemoReactGame/static/js/2.a474aea2.chunk.js",
+    "static/js/2.a474aea2.chunk.js.map": "/MemoReactGame/static/js/2.a474aea2.chunk.js.map",
+    "index.html": "/MemoReactGame/index.html",
+    "precache-manifest.4f8a9774abd4d29e1cd70cab11ae9f90.js": "/MemoReactGame/precache-manifest.4f8a9774abd4d29e1cd70cab11ae9f90.js",
+    "service-worker.js": "/MemoReactGame/service-worker.js",
+    "static/css/main.53ec1332.chunk.css.map": "/MemoReactGame/static/css/main.53ec1332.chunk.css.map"
   }
 }
