@@ -1,4 +1,7 @@
-YOU ARE WORKING IN REACT MEMORY 
+
+https://arianamelis.github.io/MemoReactGame/
+
+YOU ARE WORKING IN REACT MEMORY. How poetic
 
 
 1. The application should render different images (of your choice) to the screen. Each image should listen for click events.
@@ -13,7 +16,7 @@ YOU ARE WORKING IN REACT MEMORY
 
 6. Once the user's score is reset after an incorrect guess, the game should restart.
 
-
+Backend:
 1.DIFFERENT IMAGES LISTENING FOR CLICK EVENTS
 2.USERS SCORE 
 3.USEERS SCORE INCREMENETED
