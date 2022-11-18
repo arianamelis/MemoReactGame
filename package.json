@@ -9,7 +9,7 @@
     "react-countdown-now": "^2.1.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0",
+    "react-scripts": "5.0.1",
     "reactdom": "^2.0.0",
     "yarn": "^1.15.2"
   },
